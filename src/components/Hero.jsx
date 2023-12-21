@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="h-64 md:h-96 lg:h-128 group relative">
-      <img src="./batman.jpg" className="h-full w-full object-cover" />
+      <img src="./images/batman.jpg" className="h-full w-full object-cover" />
       <div className="absolute bottom-0 w-full bg-gradient-to-b from-transparent to-black">
         <div className="container pl-10 lg:pl-0">
           <h3 className="text-gega-melon tracking-wider group-hover:mb-1 duration-500">

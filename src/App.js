@@ -1,3 +1,4 @@
+import Blog from "./components/Blog";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Matrix from "./components/Matrix";
@@ -11,6 +12,7 @@ function App() {
     <Hero/>
     <Movis/>
     <Matrix/>
+    <Blog/> 
       
     </>
   );

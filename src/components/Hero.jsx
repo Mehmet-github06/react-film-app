@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="h-64 md:h-96 lg:h-128 group relative">
       <img src="./images/batman.jpg" className="h-full w-full object-cover" />
-      <div className="absolute bottom-0 w-full bg-gradient-to-b from-transparent to-black">
+      <div className="absolute bottom-0 w-full dark:bg-gradient-to-b from-transparent to-black dark:text-white text-black">
         <div className="container pl-10 lg:pl-0">
           <h3 className="text-gega-melon tracking-wider group-hover:mb-1 duration-500">
             Action, Drama, thiller
@@ -12,7 +12,7 @@ const Hero = () => {
           <h1 className="text-4xl lg:text-6xl text-gega-grey group-hover:mb-1 duration-500">
             The Dark knight
           </h1>
-          <p className=" text-gega-grey group-hover:mb-1 duration-500 text-sm lg:text-base w-3/4 lg:w-2/3 text-justify">
+          <p className=" dark:text-gega-grey text-black group-hover:mb-1 duration-500 text-sm lg:text-base w-3/4 lg:w-2/3 text-justify">
             When the menace known as the Joker wreaks havoc and chaos on the
             people of Gotham, Batman must accept one of the greatest
             psychological and physical tests of his ability to fight injustice.

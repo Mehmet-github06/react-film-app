@@ -2,7 +2,10 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <section className="py-24 bg-black text-gega-grey" id="blog">
+    <section
+      className="py-24 dark:bg-black dark:text-gega-grey bg-white text-black"
+      id="blog"
+    >
       {/* container */}
       <div className="container px-10 lg:px-0">
         <h2 className="text-gega-red -mt-3 mb-3">

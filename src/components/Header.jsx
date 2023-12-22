@@ -8,7 +8,7 @@ const Header = () => {
     setMenuOpen(!isMenuOpen);
   };
   return (
-    <header className="bg-black py-6 lg:py-12 text-gega-grey uppercase">
+    <header className="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase">
       <div className="container flex items-center justify-between space-x-8 lg:space-x-16">
         <a
           href="#"

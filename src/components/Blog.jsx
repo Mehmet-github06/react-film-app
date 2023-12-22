@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <section className="py-24 bg-black text-gega-grey">
+    <section className="py-24 bg-black text-gega-grey" id="blog">
       {/* container */}
       <div className="container px-10 lg:px-0">
         <h2 className="text-gega-red -mt-3 mb-3">
@@ -27,7 +27,7 @@ const Blog = () => {
               Aspernatur ea saepe repudiandae quaerat aut reiciendis.
             </p>
             <div className="border-t border-gega-red p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xl">
-              <p> {new Date().getUTCFullYear()}</p>
+              <p> {new Date().toLocaleDateString("tr-TR")}</p>
               <div className="flex items-center justify-center space-x-3">
                 <i className="fa-regular fa-comment">
                   <span className="text-sm"> 12</span>
@@ -56,7 +56,7 @@ const Blog = () => {
               Aspernatur ea saepe repudiandae quaerat aut reiciendis.
             </p>
             <div className="border-t border-gega-red p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xl">
-              <p> {new Date().getUTCFullYear()}</p>
+              <p> {new Date().toLocaleDateString("tr-TR")}</p>
               <div className="flex items-center justify-center space-x-3">
                 <i className="fa-regular fa-comment">
                   <span className="text-sm"> 18</span>
@@ -85,7 +85,7 @@ const Blog = () => {
               Aspernatur ea saepe repudiandae quaerat aut reiciendis.
             </p>
             <div className="border-t border-gega-red p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xl">
-              <p> {new Date().getUTCFullYear()}</p>
+              <p> {new Date().toLocaleDateString("tr-TR")}</p>
               <div className="flex items-center justify-center space-x-3">
                 <i className="fa-regular fa-comment">
                   <span className="text-sm"> 32</span>
@@ -114,7 +114,7 @@ const Blog = () => {
               Aspernatur ea saepe repudiandae quaerat aut reiciendis.
             </p>
             <div className="border-t border-gega-red p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xl">
-              <p> {new Date().getUTCFullYear()}</p>
+              <p> {new Date().toLocaleDateString("tr-TR")}</p>
               <div className="flex items-center justify-center space-x-3">
                 <i className="fa-regular fa-comment">
                   <span className="text-sm"> 32</span>
@@ -143,7 +143,7 @@ const Blog = () => {
               Aspernatur ea saepe repudiandae quaerat aut reiciendis.
             </p>
             <div className="border-t border-gega-red p-4 flex items-center justify-end space-x-4 font-bold font-gemunu text-xl">
-              <p> {new Date().getUTCFullYear()}</p>
+              <p> {new Date().toLocaleDateString("tr-TR")}</p>
               <div className="flex items-center justify-center space-x-3">
                 <i className="fa-regular fa-comment">
                   <span className="text-sm"> 02</span>

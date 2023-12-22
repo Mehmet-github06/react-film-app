@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Matrix from "./components/Matrix";
 import Movis from "./components/Movis";
+import Footer from "./components/Footers";
 import "./index.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Movis/>
     <Matrix/>
     <Blog/> 
+    <Footer/>
       
     </>
   );

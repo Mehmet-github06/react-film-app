@@ -54,7 +54,7 @@ const Header = () => {
               celebrities
             </a>
             <a
-              href="#"
+              href="blog"
               className="hover:text-gega-melon transition duration-500 md:mt-0"
             >
               blog

@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="h-64 md:h-96 lg:h-128 group relative">
+    <section className="h-64 md:h-96 lg:max-h-full group relative">
       <img src="./images/batman.jpg" className="h-full w-full object-cover" />
       <div className="absolute bottom-0 w-full dark:bg-gradient-to-b from-transparent to-black dark:text-white text-black">
         <div className="container pl-10 lg:pl-0">

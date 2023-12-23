@@ -1,5 +1,8 @@
 import React from "react";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
+import Hero from "./Hero";
+
 
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -8,7 +11,8 @@ const Header = () => {
     setMenuOpen(!isMenuOpen);
   };
   return (
-    <header className="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase">
+    <>
+     <header className="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase">
       <div className="container flex items-center justify-between space-x-8 lg:space-x-16">
         <a
           href="#"
@@ -41,36 +45,37 @@ const Header = () => {
           } md:flex flex-1 flex-col md:flex-row md:items-center md:justify-between`}
         >
           <div className="flex items-center lg:text-lg space-x-4 lg:space-x-8">
-            <a
-              href="#"
+          <NavLink
+              href="/"
+              className="hover:text-gega-melon transition duration-500 md:mt-0"
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to="/movis"
               className="hover:text-gega-melon transition duration-500 md:mt-0"
             >
               movis
-            </a>
-            <a
+            </NavLink>
+            {/* <a
               href="#"
               className="hover:text-gega-melon transition duration-500 md:mt-0"
             >
               celebrities
-            </a>
-            <a
-              href="blog"
+            </a> */}
+            <NavLink
+              to="/blog"
               className="hover:text-gega-melon transition duration-500 md:mt-0"
             >
               blog
-            </a>
-            <a
-              href="#"
+            </NavLink>
+            <NavLink
+              to="/matrix"
               className="hover:text-gega-melon transition duration-500 md:mt-0"
             >
               news
-            </a>
-            <a
-              href="#"
-              className="hover:text-gega-melon transition duration-500 md:mt-0"
-            >
-              about
-            </a>
+            </NavLink>
+          
           </div>
           <div className="flex items-center space-x-4 lg:space-x-8">
             <form>
@@ -97,6 +102,9 @@ const Header = () => {
         </nav>
       </div>
     </header>
+    <Hero/>
+    </>
+   
   );
 };
 

@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Tutorial App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+<div align="center" id="readme-top">
+  <a href="#">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRZVuEXO3uDjkw42ZGSrUyp5o8LTaw0iseFw&usqp=CAU" alt="Logo" width="400" height="100">
+  </a>
 
-## Available Scripts
+  <h3 align="center">Tutorial App</h3>
+  <p align="center">
+    <a href="https://react-tutorial-app-iota.vercel.app/"><strong> 👩‍⚕️ LIVE 👨‍⚕️ »</strong></a>
+    <br />
+  </p>
+</div>
 
-In the project directory, you can run:
+<img src="./public/Animation.gif" >
 
-### `yarn start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In this project created with React, I have implemented data insertion, data update, and data deletion operations on the API used
 
-### `yarn test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Data is retrieved from the API using the GET operation.
+Data is added to the API by performing a POST operation.
+Data can be deleted from the API by executing a DELETE operation.
+The data in the API can be modified by using the PUT operation.
 
-### `yarn build`
+## Screenshots
+<img src="./public/Screenshot_1.jpg" alt="modalImg" width="100%" height="300px">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Skeleton
+Tutorial App(folder)
+|
+|----readme.md         
+SOLUTION
+├── public
+│     └── index.html
+├── src
+│    ├── assets
+│    │       └── [images]
+│    ├── components
+│    │       ├── AddTutorial.jsx
+│    │       ├── EditTutorial.jsx  
+│    │       └── TutorialList.jsx 
+│    ├── pages
+│    │       └── Home.jsx        
+│    ├── App.js
+│    └── index.js
+├── package.json
+└── yarn.lock
 
-### `yarn eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+What things you need to install the software and how to install them:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   Node.js
+-   npm or yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A step by step series of examples that tell you how to get a development environment running:
 
-## Learn More
+1. Clone the repo
+    ```sh
+    git clone [your-repo-link]
+    ```
+2. Install NPM packages
+    ```sh
+    yarn install
+    ```
+3. To run the project locally:
+    ```sh
+    yarn start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### (This command will start the development server)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Responsive Looks
 
-### Code Splitting
+<img src="./public/Screenshot_2.jpg" alt="modalImg" width="30%">
+<img src="./public/Screenshot_3.jpg" alt="modalImg" width="65%" >
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Mehmet Doğan: mehmetseymen91@gmail.com <br>
+Project Link: https://react-appointment-doctor-app.netlify.app/<br><br>
+ [To see my other projects 🗂](https://github.com/Mehmet-github06) <br><br>
+ <a href="readme-top" >⏫ Go Top ⏫</a>

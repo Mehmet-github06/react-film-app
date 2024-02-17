@@ -1,12 +1,12 @@
-# Tutorial App
+# FİLM APP
 
 <br />
 <div align="center" id="readme-top">
   <a href="#">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRZVuEXO3uDjkw42ZGSrUyp5o8LTaw0iseFw&usqp=CAU" alt="Logo" width="400" height="100">
+    <img src="https://apkmb.com/wp-content/uploads/2018/12/Film-App.png" alt="Logo" width="300" height="150">
   </a>
 
-  <h3 align="center">Tutorial App</h3>
+  <h3 align="center">Film App</h3>
   <p align="center">
     <a href="https://react-tutorial-app-iota.vercel.app/"><strong> 👩‍⚕️ LIVE 👨‍⚕️ »</strong></a>
     <br />
@@ -18,7 +18,7 @@
 ## Description
 
 
-In this project created with React, I have implemented data insertion, data update, and data deletion operations on the API used
+An example movie site created using the React router structure and tailwind css, also in dark mode and light mode.
 
 ## Features
 
@@ -28,30 +28,10 @@ Data can be deleted from the API by executing a DELETE operation.
 The data in the API can be modified by using the PUT operation.
 
 ## Screenshots
-<img src="./public/Screenshot_1.jpg" alt="modalImg" width="100%" height="300px">
+<img src="./public/Screenshot_4.jpg" alt="modalImg" width="100%" height="300px">
 
 
 
-## Project Skeleton
-Tutorial App(folder)
-|
-|----readme.md         
-SOLUTION
-├── public
-│     └── index.html
-├── src
-│    ├── assets
-│    │       └── [images]
-│    ├── components
-│    │       ├── AddTutorial.jsx
-│    │       ├── EditTutorial.jsx  
-│    │       └── TutorialList.jsx 
-│    ├── pages
-│    │       └── Home.jsx        
-│    ├── App.js
-│    └── index.js
-├── package.json
-└── yarn.lock
 
 ### Prerequisites
 
@@ -81,8 +61,8 @@ A step by step series of examples that tell you how to get a development environ
 
 ## Responsive Looks
 
-<img src="./public/Screenshot_2.jpg" alt="modalImg" width="30%">
-<img src="./public/Screenshot_3.jpg" alt="modalImg" width="65%" >
+<img src="./public/Screenshot_1.jpg" alt="modalImg" width="100%">
+
 
 ## Contact
 

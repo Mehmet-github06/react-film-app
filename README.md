@@ -8,7 +8,7 @@
 
   <h3 align="center">Film App</h3>
   <p align="center">
-    <a href="https://react-tutorial-app-iota.vercel.app/"><strong> 👩‍⚕️ LIVE 👨‍⚕️ »</strong></a>
+    <a href="https://react-tailwind-2-cyan.vercel.app/"><strong> 👩‍⚕️ LIVE 👨‍⚕️ »</strong></a>
     <br />
   </p>
 </div>

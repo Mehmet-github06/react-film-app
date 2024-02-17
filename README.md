@@ -40,6 +40,15 @@ What things you need to install the software and how to install them:
 -   Node.js
 -   npm or yarn
 
+
+### Technology Used
+
+- HTML
+- TAİLWİND
+- JS
+- REACT
+
+
 ### Installing
 
 A step by step series of examples that tell you how to get a development environment running:
